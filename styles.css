@@ -33,3 +33,60 @@ body {
     font-weight: bold;
     color: #2c4bd5;
 }
+
+.buscador {
+    margin-bottom: 45px;
+}
+
+.buscador_formulario{
+    display: flex;
+    gap: 15px;
+}
+
+.buscador_caja{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 12px 18px;
+}
+
+.buscador_entrada {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.buscador_entrada::placeholder {
+    color: #444444;
+    font-weight: bold;
+}
+
+.buscador_boton {
+    border: none;
+    background-color: transparent;
+    cursor:  pointer;
+    font-size: 15px;
+    color: #222222;
+}
+
+.buscador_selector {
+    width: 145px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    padding: 12 px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+    outline: none;
+    cursor: pointer;
+}
+
+
