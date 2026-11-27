@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif0;
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
     color: #333333;
 }
 
@@ -71,7 +71,7 @@ body {
 .buscador_boton {
     border: none;
     background-color: transparent;
-    cursor:  pointer;
+    cursor: pointer;
     font-size: 15px;
     color: #222222;
 }
@@ -81,12 +81,10 @@ body {
     background-color: #f3f3f3;
     border: none;
     border-radius: 10px;
-    padding: 12 px 15px;
+    padding: 12px 15px;
     font-size: 14px;
     font-weight: bold;
     color: #444444;
     outline: none;
     cursor: pointer;
 }
-
-
