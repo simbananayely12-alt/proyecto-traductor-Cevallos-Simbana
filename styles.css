@@ -89,7 +89,6 @@ body {
     cursor: pointer;
 }
 
-/* Parte 3: Palabra y subtitulo */
 .palabra {
     display: flex;
     justify-content: space-between;
@@ -142,7 +141,6 @@ body {
     color: #333333;
 }
 
-/* Parte 4: Definiciones, sinonimos y pie de pagina */
 .definiciones {
     margin-bottom: 40px;
 }
