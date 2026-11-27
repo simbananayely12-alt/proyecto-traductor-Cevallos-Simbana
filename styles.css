@@ -141,3 +141,67 @@ body {
     font-weight: bold;
     color: #333333;
 }
+
+/* Parte 4: Definiciones, sinonimos y pie de pagina */
+.definiciones {
+    margin-bottom: 40px;
+}
+
+.definiciones__lista {
+    list-style-type: disc;
+    padding-left: 18px;
+}
+
+.definiciones__elemento {
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444444;
+}
+
+.definiciones__elemento::marker {
+    color: #2c4bd5;
+}
+
+.definiciones__termino {
+    color: #2c4bd5;
+    font-weight: bold;
+}
+
+.sinonimos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.sinonimos__etiqueta {
+    color: #999999;
+    font-weight: bold;
+}
+
+.sinonimos__lista {
+    display: flex;
+    gap: 10px;
+}
+
+.sinonimos__enlace {
+    color: #4a69bd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sinonimos__enlace:hover {
+    text-decoration: underline;
+}
+
+.pie {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+.pie__texto {
+    font-size: 12px;
+    color: #999999;
+}
